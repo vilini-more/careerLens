@@ -1,16 +1,66 @@
-# React + Vite
+# CareerLens
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> AI-powered resume and job matching platform that helps students understand how well their resume fits a target job.
 
-Currently, two official plugins are available:
+## 📌 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+CareerLens is a web application designed to help students and job seekers analyze their resume against a specific job description.
 
-## React Compiler
+The application extracts text from a PDF resume, identifies relevant technical skills, compares them with the skills mentioned in a job description, calculates a match score, and highlights potential skill gaps.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The goal is to turn a resume from a static document into a personalized career improvement roadmap.
 
-## Expanding the Oxlint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- 📄 PDF resume upload
+- 🔍 Automatic resume text extraction
+- 💼 Job description input
+- 📊 Resume-to-job match score
+- ✅ Matched skill detection
+- ⚠️ Missing skill detection
+- 💡 Personalized improvement recommendations
+- 📱 Responsive user interface
+- 🎯 Dedicated resume analysis workflow
+- 📈 Career analysis dashboard
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+
+### Libraries
+
+- pdfjs-dist
+
+### Development Tools
+
+- Git
+- GitHub
+- Visual Studio Code
+- npm
+
+## 🧠 How CareerLens Works
+
+```text
+User uploads resume
+        ↓
+PDF text extraction
+        ↓
+Resume skill detection
+        ↓
+User enters job description
+        ↓
+Job requirement detection
+        ↓
+Skill comparison
+        ↓
+Match score calculation
+        ↓
+Matched & missing skills
+        ↓
+Career recommendations
